@@ -1,0 +1,31 @@
+{
+    "name": "live-speech-translation",
+    "version": "2.0.0",
+    "description": "Real-time speech-to-speech translation using OpenAI Realtime API",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "start:log": "ts-node src/index.ts 2>&1 | Tee-Object -FilePath server.log",
+        "start:debug": "node --inspect -r ts-node/register src/index.ts",
+        "format": "prettier --write \"src/**/*.{ts,js}\" \"public/**/*.{html,css,js}\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1",
+        "openai": "^4.0.0",
+        "ws": "^8.18.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "@types/node": "^20.10.0",
+        "@types/ws": "^8.5.13",
+        "prettier": "^3.7.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
