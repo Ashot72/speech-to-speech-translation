@@ -5,7 +5,7 @@ It is a real-time speech-to-speech translation app. It uses the OpenAI Realtime 
 
 #### 👉 Links & Resources
 
-- [OepnAI RealTime API](https://platform.openai.com/docs/guides/realtime)
+- [OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime)
 ---
 
 #### 🚀 Clone and Run
